@@ -13,13 +13,13 @@
     <![endif]-->
   </head>
   <body>
-    <div>
-      <div>
-        <header>
-          <div>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <div class="header__img">
             <img src="./img/pic.jpg" />
           </div>
-          <div>
+          <div class="header__info">
             <h1>Заголовок сайта</h1>
             <p>
               Понятие тоталитаризма неизбежно. Управление политическими
@@ -30,10 +30,10 @@
             </p>
           </div>
         </header>
-        <main>
-          <aside>
+        <main class="main">
+          <aside class="left-sidebar">
             <h2>Языки</h2>
-            <div>
+            <div class="left-sidebar__list">
               <dl>
                 <dt>ASP / ASP.NET</dt>
                 <dd>
@@ -89,7 +89,7 @@
               </dl>
             </div>
           </aside>
-          <section>
+          <section class="section">
             <h2>Статьи о программировании</h2>
             <article>
               <h3>Золотые приложения e-Legion</h3>
@@ -181,9 +181,9 @@
               </p>
             </article>
           </section>
-          <aside>
+          <aside class="right-sidebar">
             <h2>Новые статьи</h2>
-            <div>
+            <div class="right-sidebar__list">
               <dl>
                 <dt>
                   Телеграм-бот криптовалютного кошелька на основе
@@ -239,10 +239,10 @@
           </aside>
         </main>
       </div>
-      <footer>
+      <footer class="footer">
         <h2>Популярные статьи о программировании</h2>
-        <div>
-          <div>
+        <div class="footer__list">
+          <div class="footer__item">
             <h3>Нумерация версий программного обеспечения</h3>
             <p>
               Жизненный цикл любой программы - будь то десктопное или
@@ -252,7 +252,7 @@
               этом никуда не девается, а меняется версия проекта.
             </p>
           </div>
-          <div>
+          <div class="footer__item">
             <h3>Глобальные объекты и переменные в ReactJS - антипаттерн</h3>
             <p>
               Очень часто при написании приложения появляется необходимость
@@ -263,7 +263,7 @@
               данные и впоследствии используются.
             </p>
           </div>
-          <div>
+          <div class="footer__item">
             <h3>Антипаттерн и паттерны проектирования</h3>
             <p>
               Антипаттерн - подход к решению задач, который является
@@ -271,7 +271,7 @@
               неправильно решение проблемы, но и нахождение правильного решения.
             </p>
           </div>
-          <div>
+          <div class="footer__item">
             <h3>Как сделать автоматическое выравнивание кода в Atom?</h3>
             <p>
               При написании большого количества программного кода не всегда
