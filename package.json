@@ -4,7 +4,6 @@
   "description": "'# otus-homework-6'",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "lint": "eslint . && prettier --check .",
     "lint:fix": "eslint . --fix && prettier --write .",
     "prepare": "husky install",
